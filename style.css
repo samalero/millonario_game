@@ -1,0 +1,56 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background:url(https://upload.wikimedia.org/wikipedia/commons/f/ff/Milonario_El_Salvador.jpg) no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    object-fit: fill;
+  }
+  
+  .container {
+    background: radial-gradient(circle at top, #001f3f, #000814);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px gold, 0 0 10px #001f3f;
+    width: 420px;
+    text-align: center;
+    color: #ffffff;
+    border: 3px solid gold;
+    font-weight: bold;
+  }
+  
+.text{
+    font-size: 1.3rem;
+}
+  
+  #timer {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+/*preguntas*/
+button {
+    margin: 12px 0;
+    padding: 12px 20px;
+    border: 2px solid #0077ff;
+    background: #003366;
+    color: #ffffff;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background: #0055cc;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #0077ff;
+  }
+  
+  
+  .hidden {
+    display: none;
+  }
+  
